@@ -16,7 +16,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                sh './output'
+                sh './non_existent_script.sh'
             }
         }
         stage('Deploy') {
